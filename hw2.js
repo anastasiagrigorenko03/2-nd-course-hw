@@ -7,8 +7,8 @@ alert(a);
 let year = 2007;
 console.log(year);
 //* задание 3
-let nam = "Брендан Айк";
-console.log(nam);
+let nameCreator = ('Брендан Эйх');
+alert(nameCreator);
 //* задание 4
 let Number1 = 10;
 let Number2 = 2;
