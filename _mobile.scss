@@ -1,0 +1,56 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .header {
+        height: 735px;
+        &__title {
+            width: 342px;
+            height: 77px;
+            text-align: center;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        &__text {
+            width: 343px;
+            text-align: center;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 22px;
+            padding-bottom: 32px;
+            &-link {
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 22px;
+            }
+        }
+        &__button {
+            margin-left: 54px;
+            margin-right: 54px;
+        }
+    }
+    .main {
+        height: 1221px;
+        &__img_box {
+            flex-wrap: wrap;
+        }
+        &__img_first {
+            width: 343px;
+            height: 300px;
+        }
+        &__img_second {
+            width: 343px;
+            height: 300px;
+        }
+        &__img_third {
+            width: 343px;
+            height: 300px;
+        }
+      
+    }
+}
