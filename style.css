@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.header {
+  height: 1024px;
+  background-image: url(img.hw1/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header__title {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 700;
+  width: 778px;
+  padding-bottom: 32px;
+}
+.header__text {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  width: 481px;
+  padding-bottom: 44px;
+}
+.header__text-link {
+  color: white;
+  font-weight: bold;
+}
+.header__button {
+  width: 234.063px;
+  height: 48.603px;
+  border-radius: 30px;
+  background: #9c0332;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.main {
+  height: 556px;
+  background-image: url(img.hw1/fon.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main__img_box {
+  display: flex;
+  gap: 32px;
+}
+.main__img_first {
+  width: 379px;
+  height: 300px;
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding-left: 32px;
+  padding-bottom: 32px;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url(img.hw1/img1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.main__img_second {
+  width: 379px;
+  height: 300px;
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding-left: 32px;
+  padding-bottom: 32px;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url(img.hw1/img2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.main__img_third {
+  width: 379px;
+  height: 300px;
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding-left: 32px;
+  padding-bottom: 32px;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url(img.hw1/img3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}/*# sourceMappingURL=style.css.map */
