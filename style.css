@@ -53,6 +53,10 @@ a {
   color: #fff;
   font-size: 18px;
   font-weight: 400;
+  transition: 1s;
+}
+.header__button:hover {
+  background: #EB443F;
 }
 
 .main {
@@ -65,6 +69,7 @@ a {
 .main__img_box {
   display: flex;
   gap: 32px;
+  padding-top: 128px;
 }
 .main__img_first {
   width: 379px;
@@ -84,6 +89,11 @@ a {
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
+  transition: 1s;
+}
+.main__img_first:hover {
+  border-radius: 16px;
+  border: 3px solid #44D2FF;
 }
 .main__img_second {
   width: 379px;
@@ -103,6 +113,11 @@ a {
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
+  transition: 1s;
+}
+.main__img_second:hover {
+  border-radius: 16px;
+  border: 3px solid #44D2FF;
 }
 .main__img_third {
   width: 379px;
@@ -122,6 +137,50 @@ a {
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
+  transition: 1s;
+}
+.main__img_third:hover {
+  border-radius: 16px;
+  border: 3px solid #44D2FF;
+}
+
+.content {
+  display: flex;
+  height: 800px;
+  background-image: url(img.hw1/fon3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.content__box {
+  margin-top: 282px;
+  width: 584px;
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+  margin-left: 120px;
+}
+.content__title {
+  color: #FFF;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.content__text {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+.content__img {
+  width: 485px;
+  height: 333px;
+  flex-shrink: 0;
+  margin-right: 116px;
+  margin-top: 233px;
+  margin-left: 135px;
 }
 
 @media (max-width: 767px) {
@@ -177,5 +236,39 @@ a {
   .main__img_third {
     width: 343px;
     height: 300px;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    height: 653px;
+  }
+  .content__box {
+    margin-top: 51px;
+    width: 343px;
+    margin-left: 0;
+  }
+  .content__title {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .content__text {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+  }
+  .content__img {
+    width: 344px;
+    height: 236px;
+    flex-shrink: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 64px;
   }
 }/*# sourceMappingURL=style.css.map */
