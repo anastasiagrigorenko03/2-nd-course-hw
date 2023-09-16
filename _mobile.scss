@@ -51,6 +51,39 @@
             width: 343px;
             height: 300px;
         }
-      
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        height: 653px;
+        &__box {
+            margin-top: 51px;
+            width: 343px;
+            margin-left: 0;
+        }
+        &__title {
+            color: #FFF;
+            text-align: center;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        &__text {
+            color: #FFF;
+            text-align: center;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 22px;
+        }
+        &__img {
+            width: 344px;
+            height: 236px;
+            flex-shrink: 0;
+            margin-right: 0;
+            margin-left: 0;
+            margin-top: 64px;
+        }
     }
 }
