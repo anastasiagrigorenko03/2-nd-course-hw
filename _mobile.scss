@@ -86,4 +86,34 @@
             margin-top: 64px;
         }
     }
+    .bottom {
+        height: 655.61px;
+        display: flex;
+        flex-direction: column;
+        &__im_im {
+            width: 344px;
+            height: 231px;
+            flex-shrink: 0;
+            margin-top: 136px;
+        }
+    &__box {
+        margin-top: 64px;
+        width: 343px;
+        margin-left: 0;
+        &_header {
+      color: #fff;
+      text-align: center;
+      font-size: 32px;
+      font-weight: 700;
+        }
+        &_text {
+            color: #fff;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 22px;
+        }
+    }
+    }
+
 }
