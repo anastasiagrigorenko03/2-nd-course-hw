@@ -41,7 +41,7 @@ a {
         font-weight: bold;
       }
     }
-    &__button {
+    &__buttom {
       width: 234.063px;
       height: 48.603px;
       border-radius: 30px;
@@ -64,7 +64,6 @@ a {
     &__img_box {
       display: flex;
       gap: 32px;
-      padding-top: 128px;
     }
     &__img_first {
       width: 379px;
@@ -140,42 +139,56 @@ a {
     }
   }
   .content {
-    display: flex;
     height: 800px;
     background-image: url(img.hw1/fon3.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
     &__box {
-      margin-top: 282px;
-      width: 584px;
       display: flex;
-      gap: 32px;
       flex-direction: column;
-      margin-left: 120px;
+      gap: 32px;
     }
     &__title {
-      color: #FFF;
+      color: #fff;
       font-size: 48px;
-      font-style: normal;
       font-weight: 700;
-      line-height: normal;
     }
     &__text {
       color: #FFF;
       font-size: 18px;
-      font-style: normal;
       font-weight: 300;
       line-height: 32px;
     }
-    &__img {
-      width: 485px;
-      height: 333px;
-      flex-shrink: 0;
-      margin-right: 116px;
-      margin-top: 233px;
-      margin-left: 135px;
+  }
+
+.bottom {
+  height: 800px;
+  background-image: url(img.hw1/fon3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  &__box {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    &_header {
+      color: #FFF;
+      font-size: 48px;
+      font-weight: 700;
+    }
+    &_text {
+      color: #FFF;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 32px; 
     }
   }
+}
+
 
   @import 'mobile';
