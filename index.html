@@ -15,7 +15,7 @@
                 <a class="header__text-link" href="#">поехали</a> и
                 <a class="header__text-link" href="#">приступай</a>
             </p>
-            <button class="header__button">Поехали!</button>
+            <button class="header__buttom">Поехали!</button>
         </header>
 <main class="main center">
 <div class="main__img_box">
@@ -43,9 +43,11 @@
 <div class="content__box"> 
 <h2 class="content__title">Времена года!</h2>
 <p class="content__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
-<button class="header__button">Играть!</button>
+<button onclick="date()" class="header__buttom">Играть</button>
 </div>
-<img class="content__img" src="img.hw1/content.svg" alt="img">
+<div class="content__img">
+  <img class="content__img_im" src="img.hw1/game.pad.png" alt="гейм пад" />
+</div>
 </div>
 
 <section class="bottom center">
@@ -62,7 +64,7 @@
       При нажатии на кнопку играть, вы увидите несколько слов,<br />
       которые вам необходимо запомнить.
     </p>
-    <button onclick="playGame()" class="header__button">Играть</button>
+    <button onclick="playGame()" class="header__buttom">Играть</button>
   </div>
 </section>
 <script src="hw7.js"></script>

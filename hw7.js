@@ -1,10 +1,46 @@
+function date() {
+  let number = Number(prompt("Введите номер месяца!"));
+  if ((number >= 1 && number <= 2) || number === 12) {
+    return alert(`Зима`);
+  } else if (number >= 3 && number <= 5) {
+    return alert(`Весна`);
+  } else if (number >= 6 && number <= 8) {
+    return alert(`Лето`);
+  } else if (number >= 9 && number <= 11) {
+    return alert(`Осень`);
+  } else {
+    return alert(`Такого месяца нет!`);
+  }
+}
+
+function playGame() {
+  let words = ["яблоко", "груша", "дыня", "виноград", "персик", "мандарин"];
+  words.sort(() => Math.random() - 0.5);
+  alert(words.join(", "));
+  let firstWord = prompt("Чему равнялся первый элемент массива?");
+  let lastWord = prompt("Чему равнялся последний элемент массива?");
+  if (
+    firstWord.toLowerCase() === words[0] &&
+    lastWord.toLowerCase() === words[words.length - 1]
+  ) {
+    alert("Поздравляем! Вы угадали оба слова!");
+  } else if (
+    firstWord.toLowerCase() === words[0] ||
+    lastWord.toLowerCase() === words[words.length - 1]
+  ) {
+    alert("Вы были близки к победе!");
+  } else {
+    alert("Вы ответили неверно!");
+  }
+}
+
 //Задание 1
  let str = "григоренко анастасия олеговна";
  console.log(str.toUpperCase());
 
 //Задание 2
 // function task(arr, str) {
-//   return arr.filter((item) => item.toLowerCase().startsWith(str.toLowerCase()));
+//   return arro.filter((item) => item.toLowerCase().startsWith(str.toLowerCase()));
 // }
 // const arr = ["Привет", "Как дела?", "Привет хорошо"];
 // let str = "п";
@@ -55,7 +91,7 @@
  const result = getRandomArrNumbers(num);
  console.log(result);
 
-// Задание 7
+//Задание 7
 // let numOne = Number(prompt("Введите первое число"));
 // let numTwo = Number(prompt("Введите первое число"));
 // function getRandimArray() {
