@@ -70,7 +70,7 @@ function playGame() {
    }
  }
 
-//Задание 5
+//Задание 
  function rand() {
    let number = Math.floor(Math.random() * 10) + 1;
    console.log(number);
